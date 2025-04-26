@@ -1,0 +1,60 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "/img/react.png",
+      "title": "ReactJS",
+      "description": "A framework for frontend web development that simplifies the development process."
+    },
+    {
+      "id": "2",
+      "src": "/img/html.png",
+      "title": "HTML",
+      "description": "HTML is the standard language used to create and structure content on the web."
+    },
+    {
+      "id": "3",
+      "src": "/img/css.png",
+      "title": "CSS",
+      "description": "CSS is a language used to style HTML elements."
+    },
+    {
+      "id": "4",
+      "src": "/img/js.png",
+      "title": "JavaScript",
+      "description": "JavaScript is a programming language that makes web pages interactive."
+    },
+    {
+      "id": "5",
+      "src": "/img/video.png",
+      "title": "video-editing",
+      "description": "is the process of manipulating and rearranging video footage to create a final product.  "
+    },
+    {
+      "id": "5",
+      "src": "/img/web.png",
+      "title": "ux developer",
+      "description": " focuses on creating smooth, user-friendly experiences in user interface.  "
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "/img/page.jpg",
+      "title": "music website",
+      "description": " A MUSIC WEBSITE  used to get new music of ethiopian musician."
+    },
+    {
+      "id": "2",
+      "src": "/img/fkl.jpg",
+      "title": "virtual drum-kit",
+      "description": "a vitual drum-kit is vitual dtum school to learn drum fast."
+    },
+    {
+      "id": "3",
+      "src": "/img/5514602.jpg",
+      "title": "ashestics",
+      "description": "ashestics music website"
+    }
+  ]
+}
