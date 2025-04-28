@@ -17,8 +17,10 @@ export default function Project() {
               href="https://github.com/jerry23130"
               target="_blank"
               rel="noopener noreferrer"
+              className="github-link-text"
             >
-              <FontAwesomeIcon icon={faGithub} /> Visit My GitHub
+              <FontAwesomeIcon icon={faGithub} />
+              <span className="github-link-label">Visit My GitHub</span>
             </a>
           </button>
         </div>
@@ -27,7 +29,7 @@ export default function Project() {
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio-section-card">
             <div className="portfolio-section-img">
-              <img src={item.src} alt={item.title} />{" "}
+              <img src={item.src} alt={item.title} />
             </div>
             <div className="portfolio-section-card-content">
               <div>
@@ -35,7 +37,6 @@ export default function Project() {
                 <p className="text-md">{item.description}</p>
               </div>
               <p className="text-sm portfolio-link">
-                {" "}
                 <a
                   href="https://github.com/jerry23130"
                   target="_blank"

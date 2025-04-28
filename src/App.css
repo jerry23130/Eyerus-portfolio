@@ -54,7 +54,7 @@ p {
   -o-transition: background-color 0.5s;
 }
 .btn-outline-primary {
-  color: var(--primary);
+  color: black;
   background-color: var(--white);
   border: 1px solid var(--primary);
 }
@@ -71,18 +71,7 @@ p {
   color: var(--primary);
   background-color: var(--white);
 }
-.btn-github {
-  color: var(--white);
-  background-color: var(--github);
-  border: var(--github);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: right;
-  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
-  gap: 16px;
-  margin-bottom: 10px;
-}
+
 .btn-github:hover {
   color: var(--github);
   background-color: var(--white);
@@ -598,6 +587,22 @@ h2 {
   font-weight: 600;
   color: var(--heading-color);
   margin-bottom: 10px;
+}
+.github-link-text {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.github-link-label {
+  color: black;
+  font-weight: 500;
+}
+
+.github-link-text:hover .github-link-label {
+  text-decoration: underline;
 }
 
 .text-md {
